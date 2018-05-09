@@ -1,0 +1,27 @@
+{
+  "name": "dctb-nodejs-jwt",
+  "version": "1.0.0",
+  "description": "Just a simple example of jwt usage.",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogocezar/dctb-nodejs-jwt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogocezar/dctb-nodejs-jwt/issues"
+  },
+  "homepage": "https://github.com/diogocezar/dctb-nodejs-jwt#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.17",
+    "morgan": "^1.9.0"
+  }
+}
